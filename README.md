@@ -1,21 +1,16 @@
-# Cold Email Generator for Services Company
+# Cold Email Generator for Service-Based Companies
 
 ## Overview
-This application is designed to streamline the outreach process for service based software development company. By inputting the URL of a company's careers page, our tool automatically extracts job listings and crafts personalized cold emails. These emails integrate relevant portfolio links from a vector database, matching the specific job requirements.
+This Cold Email Generator automates the creation of personalized emails for service-based companies targeting larger enterprises. It extracts job requirements from career pages and matches them with your service portfolio to draft tailored emails.
 
 ## Features
-- **URL Input**: Users can enter the URL of a company’s career page to extract job listings.
-- **Email Generation**: Generates personalized cold emails aimed at potential clients.
-- **Portfolio Integration**: Includes relevant project links from the Vector data base portfolio that align with the job description.
+- **Automatic Job Extraction**: Pulls key job details from career pages.
+- **Portfolio Matching**: Aligns services with job requirements.
+- **Email Draft Generation**: Produces tailored email drafts.
+- **User-Friendly Interface**: Simple and intuitive web interface.
 
-## Getting Started
-
-### Prerequisites
-Ensure you have an API key from Groq:
-1. Obtain an API_KEY from [Groq API Console](https://console.groq.com/keys).
-2. Store your API_KEY in the `app/.env` file under `GROQ_API_KEY`.
-
-### Installation
-Install the required dependencies:
+## Installation
+To set up the project locally, follow these steps:
 ```bash
 pip install -r requirements.txt
+streamlit run app.py
